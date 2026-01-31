@@ -10,7 +10,12 @@ Follow these steps to initialize a new project using this template.
 1. Click **"Use this template"** to create a new repository.
 2. Clone your new repository locally.
 
-### 2. Configure Secrets
+### 2. Install & Initialize Claude GitHub App
+The workflow requires the Claude GitHub App to interact with your repository properly.
+1. Install the official **Claude GitHub App** from [github.com/apps/claude](https://github.com/apps/claude).
+2. Alternatively, if you have Claude Code installed locally, run `/install-github-app` in your terminal within the repository. This will guide you through the setup and help configure the necessary secrets.
+
+### 3. Configure Secrets
 Navigate to your repository's **Settings > Secrets and variables > Actions** and add the following repository secrets:
 - `ANTHROPIC_API_KEY`: Your Anthropic API key (required for Claude).
 - `GEMINI_API_KEY`: Your Google Gemini API key (required for codebase analysis).
