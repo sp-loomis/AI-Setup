@@ -3,7 +3,14 @@
 **Title:** Setup: [Project Name/Goal]
 
 ## Project Goal
-*Describe the high-level purpose of this application. What problem does it solve? Who is it for?*
+### The Problem
+*What is the specific pain point or need this project addresses?*
+
+### The Solution
+*How does this project solve the problem described above?*
+
+### Target User
+*Who is the primary audience for this application?*
 
 ## Core Features
 1.  [Feature 1]
